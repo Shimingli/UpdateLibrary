@@ -2,6 +2,7 @@ package com.lsm.update.lib.utils;
 
 import android.os.Handler;
 import android.os.Looper;
+import android.support.annotation.NonNull;
 import android.util.Log;
 
 import com.lsm.update.lib.http.BaseFileProgressCallback;
@@ -28,7 +29,6 @@ import javax.net.ssl.SSLSocketFactory;
 import javax.net.ssl.TrustManager;
 import javax.net.ssl.X509TrustManager;
 
-import androidx.annotation.NonNull;
 import okhttp3.Call;
 import okhttp3.Callback;
 import okhttp3.Interceptor;
@@ -173,7 +173,7 @@ public class DownloadFileUtils {
 
     private void startDonwload() {
         if (downloadModel == null) {
-            throw new NullPointerException("OkhttpRequestModel初始化失败");
+            throw new NullPointerException("初始化失败");
         }
         //获取参数
         //请求地址
