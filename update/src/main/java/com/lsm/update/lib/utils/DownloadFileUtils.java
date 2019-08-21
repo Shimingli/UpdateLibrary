@@ -2,8 +2,9 @@ package com.lsm.update.lib.utils;
 
 import android.os.Handler;
 import android.os.Looper;
-import android.support.annotation.NonNull;
 import android.util.Log;
+
+import androidx.annotation.NonNull;
 
 import com.lsm.update.lib.http.BaseFileProgressCallback;
 import com.lsm.update.lib.http.DownloadModel;

@@ -1,7 +1,8 @@
 package com.lsm.update.lib;
 
 
-import android.support.v4.content.FileProvider;
+
+import androidx.core.content.FileProvider;
 
 /**
  * 适配Android X的版本
