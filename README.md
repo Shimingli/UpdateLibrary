@@ -1,4 +1,4 @@
-# UpdateLibrary(No AndroidX) 不是安卓X的版本
+# UpdateLibrary: AndroidX和不是AndroidX的版本
 
 * [jitpack官网_https://jitpack.io](https://jitpack.io/)
 
