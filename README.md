@@ -17,8 +17,10 @@
 
 
 * 是AndroidX的版本
+* UpdateApkFileProvider 继承是androidx.core.content.FileProvider
 ```
     //是AndroidX的版本
-    api 'com.github.Shimingli:UpdateLibrary:V1.5.0'
+    api 'com.github.Shimingli:UpdateLibrary:V1.5.0_androidx'
 ```
-* UpdateApkFileProvider 继承是androidx.core.content.FileProvider
+
+[![](https://jitpack.io/v/Shimingli/UpdateLibrary.svg)](https://jitpack.io/#Shimingli/UpdateLibrary)
